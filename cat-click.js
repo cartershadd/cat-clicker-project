@@ -13,7 +13,7 @@ function autorun()
     hOne.textContent = cat.name;
     cat.p.textContent = 'You clicked the kitty ' + cat.counter + ' times.'
     img.src = cat.img;
-    img.width = 400;
+    img.width = 275;
     img.height = 300;
 
     // Click function, which also prints out how many clicks each cat has.

@@ -18,3 +18,11 @@ img{
 div {
   padding: 1rem;
 }
+
+/* Here's the code to make this more mobile friendly! */
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .body {
+    width: 100%;
+  }
+}
